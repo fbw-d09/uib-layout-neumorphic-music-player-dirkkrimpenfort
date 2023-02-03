@@ -1,0 +1,102 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    @font-face {
+        font-family: Inter Google;
+        src: url(/dci_hauptordner_dirk/module/uib/exercises/uib-layout-neumorphic-music-player-dirkkrimpenfort/Inter/Inter-VariableFont_slnt,wght.ttf);
+    }
+}
+
+body
+{
+    background-color: whitesmoke;
+    font-family: 'Inter-VariableFont_slnt',sans-serif;
+}
+
+header
+{
+    background-color:#e6e0e0;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 60%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.suchlupe
+{
+    width: 15%;
+    border-radius: 15%;
+    background: rgb(182, 177, 177);
+    box-shadow:  13px 13px 26px #8f8f8f,
+             -13px -13px 26px #ffffff;
+    margin: 5% 0 0 5%;  
+    padding: 40px;       
+}
+
+header p
+{
+    margin: 0 auto;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.powerbutton
+{
+    width: 15%;
+    border-radius: 15%;
+    background: rgb(182, 177, 177);
+    box-shadow:  13px 13px 26px #8f8f8f,
+             -13px -13px 26px #ffffff;
+    margin: 5% 5% 0 0%; 
+    padding: 40px;       
+}
+
+main
+{
+    background-color:#e6e0e0;
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circle
+{
+    width: 40%;
+    border-radius: 50%;
+    background-image: url(/assets/track-image.jpeg);
+    
+    
+
+}
+
+.circle::after
+{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    
+}
+
+.track
+{
+    font-size: 2.9rem;
+    font-style:normal;
+}
+
+.bruce
+{
+    
+}

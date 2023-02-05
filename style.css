@@ -1,0 +1,172 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    @font-face {
+        font-family: Inter Google;
+        src: url(/dci_hauptordner_dirk/module/uib/exercises/uib-layout-neumorphic-music-player-dirkkrimpenfort/Inter/Inter-VariableFont_slnt,wght.ttf);
+    }
+}
+
+body
+{
+    background-color: whitesmoke;
+    font-family: 'Inter-VariableFont_slnt',sans-serif;
+    
+}
+
+header
+{
+    background-color:#e6e0e0;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 40%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.suchlupe
+{
+    width: 15%;
+    border-radius: 15%;
+    background: rgb(182, 177, 177);
+    box-shadow:  13px 13px 26px #8f8f8f,
+             -13px -13px 26px #ffffff;
+    margin: 5% 0 0 5%;  
+    padding: 20px;       
+}
+
+header p
+{
+    margin: 0 auto;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.powerbutton
+{
+    width: 15%;
+    border-radius: 15%;
+    background: rgb(182, 177, 177);
+    
+    box-shadow:  13px 13px 26px #8f8f8f,
+             -13px -13px 26px #ffffff;
+    margin: 5% 5% 0 0%; 
+    padding: 20px;       
+}
+
+main
+{
+    background-color:#e6e0e0;
+    width: 40%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circle
+{
+    width: 30%;
+    border-radius: 50%;
+    background-image: url(/assets/springsteen.jpeg);
+    background-size: cover;
+    display: flex;
+    
+
+}
+
+.circle::after
+{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    
+}
+
+.track
+{
+    font-size: 1.9rem;
+    font-style:normal;
+    display: flex;
+}
+
+.bruce
+{
+    font-size:2.5rem;
+    color: #8f8f8f;
+    font-weight: bolder;
+    display: flex;
+}
+
+.progressive-bar
+{
+    width: 80%;
+    background-color: #4f7cb6;
+    min-height: 20px;
+    border-radius: 10px ;
+    background-image: linear-gradient(to right,blue,blue,white,white,white);
+    
+    
+    
+}
+
+.buttons
+{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.backward
+{
+    width: 15%;
+    border-radius: 15%;
+    background: rgb(182, 177, 177);
+    box-shadow:  13px 13px 26px #8f8f8f,
+             -13px -13px 26px #ffffff;
+    margin: 5% 0 0 5%;  
+    padding: 20px;       
+}
+
+.play
+{
+    width: 15%;
+    border-radius: 15%;
+    background: rgb(182, 177, 177);
+    box-shadow:  13px 13px 26px #8f8f8f,
+             -13px -13px 26px #ffffff;
+    margin: 5% 0 0 5%;  
+    padding: 20px;       
+}
+
+.forward
+{
+    width: 15%;
+    border-radius: 15%;
+    background: rgb(182, 177, 177);
+    box-shadow:  13px 13px 26px #8f8f8f,
+             -13px -13px 26px #ffffff;
+    margin: 5% 0 0 5%;  
+    padding: 20px;       
+}
+
+.bottomline
+{
+    display: flex;
+    background-color: rgb(182, 177, 177);
+    width: 60%;
+    min-height: 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom,gray,white);
+}
